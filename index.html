@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add To Cart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Product List</h1>
+
+    <div id="products">
+        <div class="product" data-id="1">
+            <h3>iPhone</h3>
+            <p>$10.00</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product" data-id="2">
+            <h3>Watch</h3>
+            <p>$20.00</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product" data-id="3">
+            <h3>Shirt</h3>
+            <p>$30.00</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product" data-id="3">
+            <h3>Jeans</h3>
+            <p>$15.00</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+    </div>
+
+    <h2>Your Cart</h2>
+    <div id="cart">
+        <div id="cart-items">
+            <!-- Cart items will appear here -->
+        </div>
+        <p><strong>Total: $<span id="total-price">0.00</span></strong></p>
+        <button id="clear-cart">Clear</button>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
